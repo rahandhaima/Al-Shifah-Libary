@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ckb" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Al-Shifah Bookshop | سیستەمی کتێبخانە</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="app">
+    <nav class="topnav">
+      <div class="brand">
+        <div class="mark">AS</div>
+        <div class="brand-text">
+          <span class="name-en">Al-Shifah Bookshop</span>
+          <span class="name-kur">سیستەمی بەڕێوەبردنی کتێبخانە</span>
+        </div>
+      </div>
+
+      <button class="nav-link mobile-toggle btn-outline btn" id="menuToggle">☰ مینیو</button>
+
+      <div class="nav-links" id="navLinks">
+        <button class="nav-link" data-route="#/dashboard">سەرەتا</button>
+        <button class="nav-link" data-route="#/add-book">زیادکردنی کتێب</button>
+        <button class="nav-link" data-route="#/sell">فرۆشتنی کتێب</button>
+        <button class="nav-link" data-route="#/books">کتێبەکانم</button>
+        <button class="nav-link" data-route="#/categories">جۆرەکان</button>
+        <button class="nav-link" data-route="#/settings">ئەدمین</button>
+      </div>
+
+      <div class="nav-right">
+        <div class="avatar-mini" id="navAvatar" data-route="#/settings">؟</div>
+      </div>
+    </nav>
+
+    <main class="content" id="content">
+      <!-- پەڕەکان لێرەدا دادەبەزێن -->
+    </main>
+  </div>
+
+  <div id="toast"></div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
